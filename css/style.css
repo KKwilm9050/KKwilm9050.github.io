@@ -1,3 +1,19 @@
+:root {
+    --bs-primary:#083D77
+    --bs-primary-rgb:8,61,119;
+    --secondary-:#EBEBD3
+    --secondary-rgb:235,235,211;
+}   
+.expedu_icon:hover{
+    color:var(--bs-secondary);
+}
+a{
+    color:var(--bs-primary);)
+}
+.social-icon social-icon:hover{
+    background-color: var(--bs-secondary);
+}
+
 body{
     font-family:'Noto Sans TC', sans-serif;
     text-transform:none;
@@ -8,9 +24,3 @@ body{
     text-transform:none;
     }
 
-:root {
-    --bs-primary:#083D77
-    --bs-primary-rgb:8,61,119;
-    --secondary-:#EBEBD3
-    --secondary-rgb:235,235,211;
-}   
